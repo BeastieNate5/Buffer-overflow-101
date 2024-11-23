@@ -2,7 +2,7 @@
 Hello Cisco Academy. This lesson I have created for you guys will teach you on what a buffer overflow is and how to preform the exploit. This is important to know if your going into cybersecurity as 70% of vulnerabilities in 2019 were because of a memory exploit which buffer overflows are a part of that. Of course be responsible with this knowledge 🙏 
 
 # Getting Started
-You will first need to download and complile the source code in this lesson. Do to that enter these following commands on a linux machine (I recommend you start in your home directory)
+You will first need to download and complile the source code in this lesson. To do that enter these following commands on a linux machine.
 
 Moves you to your home directory
 ```
@@ -29,7 +29,7 @@ This will produce a executable program in the current directory called `main` if
 
 # Content
 ## What is a buffer overflow?
-First you need to know what a buffer is. A buffer is just simply just a container that hold can multiple values. When you create list in Python your basically just creating a buffer that can hold multiple values. In Python you don't need to specifiy the size of the list. In other languages like C where you need to compile your code you need to say how big the list/buffer is going to be.
+First you need to know what a buffer is. A buffer is just simply just a container that hold can multiple values. When you create list in Python your basically just creating a buffer that can hold multiple values. In Python you don't need to specify the size of the list. Python will automatically determine how much space it needs to allocate in memory. In other languages like C where you need to compile your code you need to say how big the list/buffer is going to be.
 
 Python (Interpreted language)
 ```py
