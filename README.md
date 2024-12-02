@@ -29,7 +29,7 @@ This will produce a executable program in the current directory called `main` if
 
 # Content
 ## What is a buffer overflow?
-First you need to know what a buffer is. A buffer is just simply just a container that hold can multiple values. When you create list in Python your basically just creating a buffer that can hold multiple values. In Python you don't need to specify the size of the list. Python will automatically determine how much space it needs to allocate in memory. In other languages like C where you need to compile your code you need to say how big the list/buffer is going to be.
+First you need to know what a buffer is. A buffer is just simply just a container that can hold multiple values. When you create list in Python your basically just creating a buffer that can hold multiple values. In Python you don't need to specify the size of the list. Python will automatically determine how much space it needs to allocate in memory. In other languages like C where you need to compile your code you need to say how big the list/buffer is going to be.
 
 Python (Interpreted language)
 ```py
